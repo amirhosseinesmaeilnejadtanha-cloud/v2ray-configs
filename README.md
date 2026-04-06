@@ -9,7 +9,7 @@
 This script collects several thousand V2ray configurations every five minutes, and you can receive and use the protocol in base 64, normal, or split format.
 
 ### Supported Protocols:
-- Vmess
+  - Vmess
 - Vless
 - Trojan
 - Tuic
