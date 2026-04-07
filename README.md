@@ -306,3 +306,13 @@ If you enabled SAML debugging to test authentication with encrypted assertions, 
 With encrypted assertions, GitHub Enterprise Server relies on the SAML signing certificate private key to decrypt assertions. This certificate is automatically generated when GitHub Enterprise Server is set up, and it is valid for 10 years.
 
 You can find more details about the SAML signing certificate, how long it is valid for, and how to regenerate it if needed in [SAML configuration reference](/en/enterprise-server@3.20/admin/managing-iam/iam-configuration-reference/saml-configuration-reference#saml-signing-certificate-for-authnrequests).Read and write permissions
+name: platform_context
+description: The context for GitOps platform, this will drive GitOps specific policies
+owner: 
+resource: repository
+where: 
+configuration:
+  platformContext:
+    active: true
+onFailure: 
+onSuccess:
